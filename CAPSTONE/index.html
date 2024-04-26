@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <ul class="navcontainer">
+            <li class="toplogo">
+                <a class="nav-logo" href="./index.html"><img src="ElevateDesignsLogo/elevatedesignsnew.png" alt="logo" id="toplogo"></a>
+            </li>
+            <li class="hideOnMobile">
+                <a class="nav-link" href="./index.html">Home</a>
+            </li>
+            <li class="hideOnMobile">
+                <a class="nav-link" href="">Services</a>
+            </li>
+            <li class="hideOnMobile">
+                <a class="nav-link" href="">Contact Us</a>
+            </li>
+            <li onclick=showSidebar() class="hideOnWebsite">
+                <a href="#"><img src="Photos/menu_FILL0_wght400_GRAD0_opsz24.png" alt="" id="sidebarMenu"></a>
+            </li>
+
+        </ul>
+
+        <ul class="sidebar">
+            <li onclick=hideSidebar() >
+                <a href="#"><img src="./Photos/close.png" alt=""></a>
+            </li>
+            <li>
+                <a class="nav-link" href="./index.html">Home</a>
+            </li>
+            <li>
+                <a class="nav-link" href="">Services</a>
+            </li>
+            <li>
+                <a class="nav-link" href="">Contact Us</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="bannerContainer">
+        <div class="homeBanner">
+            <img src="./Photos/develop_website.png" alt="">
+           <a class="homeServiceButton" href="#">View Services</a>
+            <!-- <img src="./Photos/boost_business.png" alt=""> -->
+            <img src="./Photos/responsive_design.png" alt="">
+        </div>
+    </div>
+
+
+    <footer class="footerContainer">
+
+        <div class="footerContent">
+            <img src="./ElevateDesignsLogo/ElevateSolo.png" alt="">
+            <p>Business people require powereful websites.</p>
+        </div>
+
+        <div class="footerContent">
+            <h4>Navigation</h4>
+            <a href="#">Home</a>
+            <a href="#">Services</a>
+            <a href="#">Contact Us</a>
+        </div>
+
+        <div class="footerContent">
+            <h4>Contact Info</h4>
+            <p>email@email.com</p>
+            <p>123-123-1234</p>
+        </div>
+
+
+    </footer>
+
+
+</body>
+</html>
